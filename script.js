@@ -33,3 +33,23 @@ function animarSkills(){
 
 window.addEventListener("scroll", animarSkills);
 
+document.getElementById("formContato").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  let nome = document.getElementById("nome").value;
+  let email = document.getElementById("email").value;
+  let mensagem = document.getElementById("mensagem").value;
+
+  if (nome === "" || email === "" || mensagem === "") {
+    document.getElementById("status").innerText = "Preencha todos os campos!";
+    return;
+  }
+
+  if (!email.includes("@") || !email.includes(".")) {
+    document.getElementById("status").innerText = "E-mail inválido!";
+    return;
+  }
+
+  document.getElementById("status").innerText = "Mensagem enviada com sucesso!";
+  document.getElementById("formContato").reset();
+});
