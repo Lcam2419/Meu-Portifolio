@@ -3,16 +3,10 @@
     padding:0;
     box-sizing:border-box;
 }
-.github
-{
-    width: 50px;
-    height:50px;
-    transition:0.3s;
-}
 
 body{
     font-family:'Poppins',sans-serif;
-    background:#0f172a;
+    background:black;
     color:white;
     line-height:1.6;
 }
@@ -27,7 +21,7 @@ body{
 
 /* HEADER */
 header{
-    background:#020617;
+    background:black;
     position:sticky;
     top:0;
     z-index:1000;
@@ -43,7 +37,7 @@ header{
 nav a{
     margin-left:20px;
     text-decoration:none;
-    color:#38bdf8;
+    color: greenyellow;
     font-weight:500;
 }
 
@@ -55,7 +49,7 @@ nav a:hover{
 .hero{
     padding:100px 20px;
     text-align:center;
-    background:linear-gradient(180deg,#020617,#0f172a);
+    background:linear-gradient(180deg,black,greenyellow);
 }
 
 .hero h2{
@@ -67,8 +61,8 @@ nav a:hover{
     display:inline-block;
     margin-top:20px;
     padding:12px 25px;
-    background:#38bdf8;
-    color:#020617;
+    background:black;
+    color:white;
     text-decoration:none;
     border-radius:6px;
     font-weight:600;
@@ -77,7 +71,7 @@ nav a:hover{
 
 .btn:hover{
     transform:translateY(-2px);
-    background:white;
+    background:greenyellow;
 }
 
 /* SECTION */
@@ -87,7 +81,7 @@ nav a:hover{
 
 .section h2{
     margin-bottom:30px;
-    color:#38bdf8;
+    color:greenyellow;
 }
 
 /* CARDS */
@@ -98,7 +92,7 @@ nav a:hover{
 }
 
 .card{
-    background:#020617;
+    background: green;
     padding:25px;
     border-radius:10px;
     transition:0.3s;
@@ -113,8 +107,8 @@ nav a:hover{
     display:inline-block;
     margin-top:15px;
     padding:8px 18px;
-    background:#38bdf8;
-    color:#020617;
+    background: greenyellow;
+    color:black;
     text-decoration:none;
     border-radius:5px;
     font-weight:600;
@@ -124,21 +118,21 @@ nav a:hover{
 footer{
     text-align:center;
     padding:40px;
-    background:#020617;
+    background: black;
 }
 
 /* ANIMAÇÃO SCROLL */
 .skill-bar {
   width: 100%;
   height: 8px;
-  background: #1e293b;
+  background: white;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 5px;
 }
 .skill-progress {
   height: 100%;
-  background: linear-gradient(90deg, #38bdf8, #0ea5e9);
+  background: linear-gradient(90deg,green,greenyellow);
   border-radius: 10px;
   width: 0;
   animation: loadBar 1.5s ease forwards;
@@ -169,14 +163,14 @@ footer{
     height:160px;
     border-radius:50%;
     object-fit:cover;
-    border:4px solid #38bdf8;
+    border:4px solid greenyellow;
     margin-bottom:20px;
-    box-shadow:0 0 25px rgba(56,189,248,0.4);
+    box-shadow:0 0 25px greenyellow(56,189,248,0.4);
     transition:0.3s;
 }
 .profile-pic:hover{
     transform:scale(1.05);
-    box-shadow:0 0 35px rgba(56,189,248,0.6);
+    box-shadow:0 0 35px greenyellow(56,189,248,0.6);
 }
 
 @media(max-width:600px){
@@ -201,13 +195,13 @@ form{
 h1{
     text-align:center;
     margin-bottom:30px;
-    color:#38bdf8;
+    color:greenyellow;
 }
 h3{
-    color:#38bdf8;
+    color:greenyellow;
 }
 h4{
-    color:#38bdf8;
+    color:greenyellow;
     margin-top:10px;
 }
 .whatsapp{
@@ -226,11 +220,12 @@ h4{
     width: 50px;
     height:50px;
     transition:0.3s;
-    
 }
 .container2{
-    display:center;
-    flex-direction:center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
 
 
 }
