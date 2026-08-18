@@ -1,6 +1,7 @@
 # 💼 Portfólio - Lucas Alexandre
 
-<img width="1896" height="1077" alt="image" src="https://github.com/user-attachments/assets/38e7d497-1a61-4e27-9767-f3e29fd88c09" />
+<img width="1897" height="1016" alt="image" src="https://github.com/user-attachments/assets/a11735df-2e31-427d-a93e-ce52637ab3a1" />
+
 
 
 🔗 **Acesse o projeto:**  
