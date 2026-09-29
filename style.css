@@ -1,16 +1,17 @@
+/* CSS RESET */
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
-
+/* GOOGLE FONTS */
 body{
     font-family:'Poppins',sans-serif;
     background:black;
     color:white;
     line-height:1.6;
 }
-
+/* CONTAINER */
 .container{
     max-width:1000px;
     margin:auto;
@@ -18,7 +19,21 @@ body{
     display:flex;
     flex-direction:column;
 }
+.container2{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
 
+
+}
+
+/* LINKS */
+a{
+    text-decoration:none;
+    color: greenyellow;
+    font-weight:500;
+}
 /* HEADER */
 header{
     background:black;
@@ -26,14 +41,14 @@ header{
     top:0;
     z-index:1000;
 }
-
+/* HEADER CONTENT */
 .header-content{
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:20px 0;
 }
-
+/* NAVIGATION */
 nav a{
     margin-left:20px;
     text-decoration:none;
@@ -43,82 +58,6 @@ nav a{
 
 nav a:hover{
     color:white;
-}
-
-/* HERO */
-.hero{
-    padding:100px 20px;
-    text-align:center;
-    background:linear-gradient(180deg,black,greenyellow);
-}
-
-.hero h2{
-    font-size:40px;
-    margin-bottom:10px;
-}
-
-.btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    background:black;
-    color:white;
-    text-decoration:none;
-    border-radius:6px;
-    font-weight:600;
-    transition:0.3s;
-}
-
-.btn:hover{
-    transform:translateY(-2px);
-    background:greenyellow;
-}
-
-/* SECTION */
-.section{
-    padding:80px 0;
-}
-
-.section h2{
-    margin-bottom:30px;
-    color:greenyellow;
-}
-
-/* CARDS */
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.card{
-    background: green;
-    padding:25px;
-    border-radius:10px;
-    transition:0.3s;
-    box-shadow:0 0 15px rgba(0,0,0,0.4);
-}
-
-.card:hover{
-    transform:translateY(-5px);
-}
-
-.btn-small{
-    display:inline-block;
-    margin-top:15px;
-    padding:8px 18px;
-    background: greenyellow;
-    color:black;
-    text-decoration:none;
-    border-radius:5px;
-    font-weight:600;
-}
-
-/* FOOTER */
-footer{
-    text-align:center;
-    padding:40px;
-    background: black;
 }
 
 /* ANIMAÇÃO SCROLL */
@@ -151,6 +90,81 @@ footer{
 .progresso.react{ width:55%; }
 .progresso.git{ width:65%; }
 
+
+/* HERO */
+.hero{
+    padding:100px 20px;
+    text-align:center;
+    background:linear-gradient(180deg,black,greenyellow);
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+/* BUTTONS */
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+    background:greenyellow;
+}
+
+.btn-small{
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 18px;
+    background: greenyellow;
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:600;
+}
+
+/* SECTION */
+.section{
+    padding:80px 0;
+}
+
+.section h2{
+    margin-bottom:30px;
+    color:greenyellow;
+}
+
+/* CARDS */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background: green;
+    padding:25px;
+    border-radius:10px;
+    transition:0.3s;
+    box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    }
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:40px;
+    background: black;
+    }
 .hero .container{
     display:flex;
     flex-direction:column;
@@ -173,6 +187,7 @@ footer{
     box-shadow:0 0 35px greenyellow(56,189,248,0.6);
 }
 
+/* RESPONSIVE */
 @media(max-width:600px){
     .header-content{
         flex-direction:column;
@@ -185,6 +200,7 @@ footer{
         font-size:28px;
     }
 }
+/* FORMULÁRIO */
 form{
     display:flex;
     flex-direction:column;
@@ -204,6 +220,7 @@ h4{
     color:greenyellow;
     margin-top:10px;
 }
+/* redes sociais */
 .whatsapp{
     width: 50px;
     height:50px;
@@ -221,11 +238,4 @@ h4{
     height:50px;
     transition:0.3s;
 }
-.container2{
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    gap:20px;
 
-
-}

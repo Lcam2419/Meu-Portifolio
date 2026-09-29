@@ -12,7 +12,7 @@ function reveal(){
         }
     }
 }
-
+// animação das skills
 window.addEventListener("scroll", reveal);
 function animarSkills(){
     const section = document.querySelector("#habilidades");
@@ -30,7 +30,7 @@ function animarSkills(){
         });
     }
 }
-
+// chama a função animarSkills quando a página é rolada
 window.addEventListener("scroll", animarSkills);
 
 
