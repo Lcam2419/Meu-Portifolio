@@ -39,8 +39,8 @@ O objetivo do projeto é demonstrar na prática meus conhecimentos em criação 
 ## 🚀 Projetos destacados
 
 - 🛒 **NinjaKicks** — Loja online de calçados  
-- 🌐 **Landing Page** — Layout responsivo profissional  
-
+- 🌐 **Stars burguer** — Layout responsivo profissional  
+- **Minha Lista de Tarefas** - lista de tarefas  
 ---
 
 ## 📈 Objetivo
