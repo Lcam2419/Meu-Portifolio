@@ -11,6 +11,70 @@ body{
     color:white;
     line-height:1.6;
 }
+/* FUNDO ANIMADO */
+
+#background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+
+    pointer-events: none;
+
+    background: #020617;
+}
+
+/* Garante que o conteúdo fique acima */
+body {
+    position: relative;
+    background: #020617;
+}
+
+/* Brilho verde atrás do conteúdo */
+body::before {
+    content: "";
+
+    position: fixed;
+
+    width: 500px;
+    height: 500px;
+
+    top: 10%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: radial-gradient(
+        circle,
+        rgba(34, 197, 94, 0.12) 0%,
+        rgba(34, 197, 94, 0.05) 35%,
+        transparent 70%
+    );
+
+    pointer-events: none;
+
+    z-index: -1;
+
+    animation: brilho 6s ease-in-out infinite alternate;
+}
+
+@keyframes brilho {
+
+    0% {
+        transform: translateX(-50%) scale(0.9);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(-50%) scale(1.15);
+        opacity: 1;
+    }
+}
+
 /* CONTAINER */
 .container{
     max-width:1000px;
