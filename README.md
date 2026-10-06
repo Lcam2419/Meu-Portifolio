@@ -1,10 +1,5 @@
 # 👨‍💻 Lucas Alexandre — Portfólio
 
-<p align="center">
-  <img src="<img width="1506" height="722" alt="image" src="https://github.com/user-attachments/assets/d868f09c-ea92-482d-843b-3f138525ccf1" />
-" width="100" alt="Logo Lucas Alexandre">
-</p>
-
 <h3 align="center">
   Desenvolvedor Front-End em formação 🚀
 </h3>
