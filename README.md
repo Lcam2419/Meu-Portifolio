@@ -1,62 +1,149 @@
-# 💼 Portfólio - Lucas Alexandre
+# 👨‍💻 Lucas Alexandre — Portfólio
 
-<img width="1897" height="1016" alt="image" src="https://github.com/user-attachments/assets/a11735df-2e31-427d-a93e-ce52637ab3a1" />
+<p align="center">
+  <img src="src/img/L.logo.jpg" width="100" alt="Logo Lucas Alexandre">
+</p>
 
+<h3 align="center">
+  Desenvolvedor Front-End em formação 🚀
+</h3>
 
-
-🔗 **Acesse o projeto:**  
-https://lcam2419.github.io/Meu-Portifolio/
-
----
-
-## 📌 Sobre o projeto
-
-Este é o meu portfólio pessoal desenvolvido com foco em apresentar minhas habilidades como desenvolvedor Front-End.
-
-O objetivo do projeto é demonstrar na prática meus conhecimentos em criação de interfaces modernas, responsivas e com boa experiência do usuário.
+<p align="center">
+  Portfólio pessoal desenvolvido para apresentar meus projetos, conhecimentos e evolução na área de tecnologia.
+</p>
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🌐 Acesse meu portfólio
 
-- HTML5
-- CSS3
-- JavaScript
-- Git & GitHub
+🔗 **[Meu Portfólio](https://lcam2419.github.io/Meu-Portifolio/)**
 
----
-
-## 🎯 Funcionalidades
-
-- Layout moderno e responsivo
-- Seções organizadas (Sobre, Projetos, Contato)
-- Animações suaves
-- Representação visual de habilidades
-- Links diretos para projetos publicados
+🔗 **[Meu GitHub](https://github.com/Lcam2419)**
 
 ---
 
-## 🚀 Projetos destacados
+## 👨‍💻 Sobre mim
 
-- 🛒 **NinjaKicks** — Loja online de calçados  
-- 🌐 **Stars burguer** — Layout responsivo profissional  
-- **Minha Lista de Tarefas** - lista de tarefas  
----
+Sou estudante de **Análise e Desenvolvimento de Sistemas (ADS)** e estou construindo minha carreira na área de tecnologia, com foco em **Desenvolvimento Front-End**.
 
-## 📈 Objetivo
+Tenho estudado e desenvolvido projetos para colocar em prática meus conhecimentos em desenvolvimento web, buscando evoluir principalmente em **HTML, CSS, JavaScript, React e Angular**.
 
-Estou em busca da minha primeira oportunidade como desenvolvedor Front-End, onde eu possa aplicar meus conhecimentos, evoluir tecnicamente e contribuir com soluções reais.
+Atualmente, estou em busca de uma oportunidade de **Estágio em TI / Front-End**, onde possa adquirir experiência profissional, contribuir com a equipe e continuar evoluindo como desenvolvedor.
 
 ---
 
-## 📬 Contato
+## 🛠️ Tecnologias
 
-- 📧 Email: [lucassilvacmp@gmail.com](mailto:lucassilvacmp@gmail.com)  
-- 💻 GitHub: https://github.com/lcam2419  
-- 🔗 LinkedIn: https://www.linkedin.com/in/lucas-alexandre-4b50122aa/  
+### Front-End
+
+* HTML5
+* CSS3
+* JavaScript
+* React
+* Angular
+* Vite
+* Styled Components
+
+### Outras tecnologias
+
+* Git
+* GitHub
+* Node.js
+* C++
+* Python
+* Java
+* PHP
+* SQL
 
 ---
 
-## ⚡ Status
+## 🚀 Projetos
 
-🚧 Projeto em constante evolução
+### 👟 NinjaKicks
+
+E-commerce de tênis desenvolvido para praticar desenvolvimento web.
+
+**Tecnologias:**
+
+* HTML
+* CSS
+* JavaScript
+* LocalStorage
+
+🔗 [Ver projeto](https://lcam2419.github.io/projeto-x/)
+
+🔗 [Repositório](https://github.com/Lcam2419/ninjakicks)
+
+---
+
+### ✅ Minha Todo List
+
+Aplicação de lista de tarefas desenvolvida com React.
+
+O projeto permite:
+
+* Adicionar tarefas
+* Concluir tarefas
+* Excluir tarefas
+* Gerenciar o estado dos componentes
+
+**Tecnologias:**
+
+* React
+* JavaScript
+* Vite
+* Styled Components
+
+🔗 [Repositório](https://github.com/Lcam2419/minha-todo-list)
+
+---
+
+### 🌐 Meu Portfólio
+
+Meu portfólio pessoal, desenvolvido para apresentar minha trajetória, conhecimentos e projetos na área de desenvolvimento.
+
+**Tecnologias:**
+
+* HTML5
+* CSS3
+* JavaScript
+* GitHub Pages
+
+O projeto também possui uma animação de fundo desenvolvida com **JavaScript e Canvas**, criando partículas e conexões animadas.
+
+🔗 [Acessar portfólio](https://lcam2419.github.io/Meu-Portifolio/)
+
+---
+
+## 📚 Atualmente estudando
+
+Estou continuamente desenvolvendo meus conhecimentos em:
+
+* ⚛️ React
+* 🅰️ Angular
+* JavaScript
+* Desenvolvimento Web
+* Banco de Dados
+* SQL
+* Git e GitHub
+* Lógica de programação
+* Estruturação de projetos Front-End
+
+---
+
+## 🎯 Objetivos
+
+* Conseguir minha primeira oportunidade na área de tecnologia
+* Conquistar um estágio em TI / Front-End
+* Desenvolver projetos cada vez mais completos
+* Aprimorar meus conhecimentos em React e Angular
+* Aprender boas práticas de desenvolvimento
+* Evoluir profissionalmente como desenvolvedor
+
+---
+
+## 📊 Minha evolução
+
+Este repositório está em constante atualização.
+
+Novos projetos, tecnologias e melhorias serã
