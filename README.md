@@ -1,7 +1,8 @@
 # 👨‍💻 Lucas Alexandre — Portfólio
 
 <p align="center">
-  <img src="src/img/L.logo.jpg" width="100" alt="Logo Lucas Alexandre">
+  <img src="![Uploading image.png…]()
+" width="100" alt="Logo Lucas Alexandre">
 </p>
 
 <h3 align="center">
